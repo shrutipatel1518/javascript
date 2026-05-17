@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //object
+        let obj ={
+            name:"shruti",
+            age : 21,
+            marks: 45
+        }
+        console.log(obj.name);
+        obj.city="bhopal"
+        console.log(obj.city);
+        delete obj.city
+        console.log(obj.city);
+
+
+
+        //array
+        let array =["hi" , "its" , "shruti"]
+        console.log(array[1]);
+
+        array[1]="it`s "
+        console.log(array[0]);
+        console.log(array[1]);
+        console.log(array[2]);
+
+        array.push("patel")
+        console.log(array[0]);
+        console.log(array[1]);
+        console.log(array[2]);
+        console.log(array[3]);
+
+        array.pop("patel")
+
+        array.unshift("darling")
+        console.log(array[0]);
+        console.log(array[1]);
+        console.log(array[2]);
+        console.log(array[3]);
+
+        array.shift("darling")
+        console.log(array[0]);
+        console.log(array[1]);
+        console.log(array[2]);
+        console.log(array[3]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
